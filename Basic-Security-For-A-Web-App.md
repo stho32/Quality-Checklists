@@ -19,6 +19,13 @@
   - [ ] define the security controls you have in place (firewalls, rate limiting, tls, authentication mechanisms)
   - [ ] have an update-plan and follow it! 
   
+# Avoid using a third-party service or library because they can have uncontrollable risks
+
+  - [ ] Can you build the service or functionality yourself?
+    - [ ] Never write your own cryptography!
+  - [ ] In case you can build it yourself, does it create more risk or less risk?
+  - [ ] Evaluate the packages you use! Check them for security flaws, tests, is it active?
+  
 # Advanced
 
   - [ ] add two factor authentication
