@@ -30,3 +30,4 @@
 
   - [ ] add two factor authentication
   - [ ] log every move of every user
+  - [ ] add snyk, sonar cube or something like that to your automated build pipeline
